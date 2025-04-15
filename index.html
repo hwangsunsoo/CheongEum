@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>스크린리더 테스트</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/ChungEum-1.0.0.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>스크린리더 테스트</h1>
+    <hr>
+
+    <h2>포커스 시 음성 출력 (태그 안에 텍스트가 있으면 읽음)</h2>
+    <button class="udl-focus">강아지</button>
+    <button class="udl-focus">고양이</button>
+    <button class="udl-focus">토끼</button>
+    <button class="udl-focus">거북이</button>
+    <button class="udl-focus">햄스터</button>
+    <span class="udl-focus" tabindex="0">강아지</span>
+    <span class="udl-focus" tabindex="0">고양이</span>
+    <span class="udl-focus" tabindex="0">토끼</span>
+    <span class="udl-focus" tabindex="0">거북이</span>
+    <span class="udl-focus" tabindex="0">햄스터</span>
+    <hr>
+
+    <h2>포커스 시 음성 출력 (aria-label이 있으면 태그 안의 텍스트 대신 읽음)</h2>
+    <button class="udl-focus" aria-label="멍멍멍">강아지</button>
+    <button class="udl-focus" aria-label="냐옹냐옹">고양이</button>
+    <button class="udl-focus" aria-label="깜짝">토끼</button>
+    <button class="udl-focus" aria-label="오래사는">거북이</button>
+    <button class="udl-focus" aria-label="귀여운">햄스터</button>
+    <hr>
+
+    <h2>마우스 오버 시 음성 출력 (태그 안에 텍스트가 있으면 읽음)</h2>
+    <button class="udl-hover">강아지</button>
+    <button class="udl-hover">고양이</button>
+    <button class="udl-hover">토끼</button>
+    <button class="udl-hover">거북이</button>
+    <button class="udl-hover">햄스터</button>
+    <span class="udl-hover" tabindex="0">강아지</span>
+    <span class="udl-hover" tabindex="0">고양이</span>
+    <span class="udl-hover" tabindex="0">토끼</span>
+    <span class="udl-hover" tabindex="0">거북이</span>
+    <span class="udl-hover" tabindex="0">햄스터</span>
+    <hr>
+
+    <h2>마우스 오버 시 음성 출력 (aria-label이 있으면 태그 안의 텍스트 대신 읽음)</h2>
+    <button class="udl-hover" aria-label="멍멍멍">강아지</button>
+    <button class="udl-hover" aria-label="냐옹냐옹">고양이</button>
+    <button class="udl-hover" aria-label="깜짝">토끼</button>
+    <button class="udl-hover" aria-label="오래사는">거북이</button>
+    <button class="udl-hover" aria-label="귀여운">햄스터</button>
+    <span class="udl-hover" tabindex="0" aria-label="멍멍멍">강아지</span>
+    <span class="udl-hover" tabindex="0" aria-label="냐옹냐옹">고양이</span>
+    <span class="udl-hover" tabindex="0" aria-label="깜짝">토끼</span>
+    <span class="udl-hover" tabindex="0" aria-label="오래사는">거북이</span>
+    <span class="udl-hover" tabindex="0" aria-label="귀여운">햄스터</span>
+    <hr>
+
+    <h2>텍스트 입력 시 음성 출력</h2>
+    <input type="text" class="udl-input" style="width: 200px;">
+    <span>(입력 후 엔터)</span>
+    <hr>
+
+    <h2>이미지 마우스 오버 시 음성 출력 (alt 텍스트가 있으면 읽음)</h2>
+    <div class="area-img">
+        <img src="img/sample1.png" alt="토끼가 오른쪽을 보고 있다">
+        <img src="img/sample2.png" alt="토끼가 얌전히 있다">
+        <img src="img/sample3.png" alt="토끼가 잔디 위에 있다">
+        <img src="img/sample4.png" alt="토끼가 숲속에 있다">
+    </div>
+    <hr>
+
+</div>
+
+</body>
+</html>
