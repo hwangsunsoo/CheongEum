@@ -1,7 +1,7 @@
 # 웹 스크린리더
-- 핵심 내용은 ChungEum-1.0.0.js 파일 참고
+- 핵심 내용은 CheongEum-1.0.0.js 파일 참고
 
-# ChungEum 접근성 라이브러리 v1.0.0
+# CheongEum 접근성 라이브러리 v1.0.0
 
 ## 개요
 이 라이브러리는 웹 페이지에 접근성 기능을 추가하여 UDL(Universal Design for Learning) 원칙을 지원합니다.
@@ -53,7 +53,7 @@ Web Speech API의 SpeechSynthesisUtterance는 다음 브라우저들에서 동�
 ----
 
 # 한국형 웹 스크린리더 개발 프로젝트
-- 2025-04-15, ChungEum v1.0.0
+- 2025-04-15, CheongEum v1.0.0
 
 ## 『청음』 맑은 소리를 청해 듣다
 
