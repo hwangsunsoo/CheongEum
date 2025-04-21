@@ -128,7 +128,7 @@ utterance.voice = voices.find(voice => voice.lang === "ko-KR");
 이를 통해 사용자 경험을 향상시키고, 다양한 접근성 기능을 구현할 수 있습니다.
 
 ----
-<img src="./common/images/logo.png" alt="황선수컴퍼니" style="width: 192px;" />
+<img src="./common/images/logo.png" alt="황선수컴퍼니" style="width: 385px;" />
 
 # 문의 및 개선사항
 - [황선수](http://hwangsunsoo.com)
