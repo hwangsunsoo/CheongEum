@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>스크린리더 테스트</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/CheongEum.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} });</script>
+</head>
+<body>
+
+<div class="container">
+
+	<h1>스크린리더 테스트</h1>
+	<p>index.html?type=udl 이렇게 뒤에 파라미터를 붙여서 접속하면 스크린리더 기능이 활성화됩니다.</p>
+	<hr>
+
+	<h2>클릭 또는 탭 포커스 되었을 때 음성 출력 (태그 안에 텍스트가 있으면 읽음)</h2>
+	<button>강아지</button>
+	<button>고양이</button>
+	<button>토끼</button>
+	<span tabindex="0">강아지</span>
+	<span tabindex="0">고양이</span>
+	<span tabindex="0">토끼</span>
+	<hr>
+
+	<h2>클릭 또는 탭 포커스 되었을 때 음성 출력 (aria-label이 있으면 태그 안의 텍스트 대신 읽음)</h2>
+	<button aria-label="멍멍멍멍">강아지</button>
+	<button aria-label="냐옹냐옹">고양이</button>
+	<button aria-label="깜짝깜짝">토끼</button>
+	<hr>
+
+	<h2>클릭 또는 탭 포커스 되었을 때 음성 출력</h2>
+	<input type="text" style="width: 200px;" aria-label="여기에 텍스트를 입력하세요."> (입력할 때마다 음성 출력)
+	<hr>
+
+	<h2>클릭 또는 탭 포커스 되었을 때 음성 출력 (alt 텍스트가 있으면 읽음)</h2>
+	<div class="area-img">
+		<img src="img/sample1.png" tabindex="0" alt="토끼가 오른쪽을 보고 있다">
+		<img src="img/sample2.png" tabindex="0" alt="토끼가 얌전히 있다">
+		<img src="img/sample3.png" tabindex="0" alt="토끼가 잔디 위에 있다">
+		<img src="img/sample4.png" tabindex="0" alt="토끼가 숲속에 있다">
+	</div>
+	<hr>
+
+	<h2>동작에 따른 음성 출력 (함수 사용)</h2>
+	<div style="position: relative; height: 50px;">
+		<em id="clickMe" style="position: absolute; top: 0; left: 0; width: 150px; height: 50px; line-height: 50px; text-align: center; border: 1px solid red; border-radius: 5px; box-sizing: border-box;">여기를 클릭하세요.</em>
+	</div>
+	<script>
+		document.getElementById('clickMe').addEventListener('click', function() {
+			if (this.style.left === '150px') {
+				this.style.left = '0';
+				chungEum('왼쪽으로 이동했습니다.');
+			} else {
+				this.style.left = '150px';
+				chungEum('오른쪽으로 이동했습니다.');
+			}
+		});
+	</script>
+	<hr>
+
+	<h2>수식 읽기 (aria-label)</h2>
+	<div tabindex="0" style="font-size: 3em;" aria-label="분수 4분의 2는 2분의 1과 같다.">
+		$\frac{2}{4} = \frac{1}{2}$
+	</div>
+	<div tabindex="0" style="margin-top: 20px; font-size: 2em;" aria-label="3의 2제곱은 9이다.">
+		$3^{2} = 9$
+	</div>
+	<hr>
+
+</div>
+
+</body>
+</html>
