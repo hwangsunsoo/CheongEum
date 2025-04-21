@@ -1,4 +1,4 @@
-![세종대왕님께서 헤드셋을 끼고 노트북을 들고 앉아 있는 모습](./common/images/great_king_sejong.png)
+<img src="./common/images/great_king_sejong.png" alt="세종대왕님께서 헤드셋을 끼고 노트북을 들고 앉아 있는 모습" style="max-width: 100%;" />
 (AI로 생성한 이미지입니다.)
 
 # 훈맹청음(訓盲聽音)
@@ -34,7 +34,7 @@
 자세한 정보와 예제 코드는 [MDN Web Docs의 SpeechSynthesisUtterance 문서](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance)를 참고하시기 바랍니다.
 
 ----
-![Universal Design for Learning](./common/images/readme-1.png)
+<img src="./common/images/readme-1.png" alt="Universal Design for Learning" style="max-width: 100%;" />
 (AI로 생성한 이미지입니다.)
 
 # UDL(Universal Design for Learning)
@@ -77,7 +77,7 @@ UDL은 모든 학습자가 자신의 잠재력을 최대한 발휘할 수 있도
 이를 통해 교육의 포용성과 효과성을 높일 수 있으며, 다양한 학습자의 요구를 충족시키는 교육 환경을 조성할 수 있습니다.
 
 ----
-![웹 브라우저에서 텍스트를 음성으로 변환하는 기능](./common/images/readme-2.png)
+<img src="./common/images/readme-2.png" alt="웹 브라우저에서 텍스트를 음성으로 변환하는 기능" style="max-width: 100%;" />
 (AI로 생성한 이미지입니다.)
 
 # SpeechSynthesisUtterance
@@ -128,7 +128,7 @@ utterance.voice = voices.find(voice => voice.lang === "ko-KR");
 이를 통해 사용자 경험을 향상시키고, 다양한 접근성 기능을 구현할 수 있습니다.
 
 ----
-![황선수컴퍼니](./common/images/logo.png)
+<img src="./common/images/logo.png" alt="황선수컴퍼니" style="max-width: 100%;" />
 
 # 문의 및 개선사항
 - [황선수](http://hwangsunsoo.com)
