@@ -1,3 +1,6 @@
+[훈맹청음 데모 페이지](http://hwangsunsoo.com/CheongEum/source/CheongEum-v1.0.1/index.html?type=udl)
+
+----
 <img src="./common/images/great_king_sejong.png" alt="세종대왕님께서 헤드셋을 끼고 노트북을 들고 앉아 있는 모습" style="width: 384px;" />
 
 # 훈맹청음 개발본 | 訓盲聽音 開發本
