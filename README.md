@@ -135,6 +135,7 @@ Web Speech API의 SpeechSynthesisUtterance는 다음 브라우저들에서 동�
 - Safari (버전 7 이상)
 - Opera (버전 27 이상)
 - Samsung Internet (버전 4 이상)
+
 그러나 Internet Explorer에서는 지원되지 않습니다.<br>
 코드에서 사용하고 있는 SpeechSynthesisUtterance는 Web Speech API의 일부로, 텍스트를 음성으로 변환하는 기능을 제공합니다.<br>
 대부분의 현대 브라우저에서는 잘 작동하지만, 모바일 브라우저에서는 제한적인 지원이 있을 수 있습니다.
