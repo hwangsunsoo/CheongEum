@@ -5,9 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>스크린리더 테스트</title>
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/CheongEum.js"></script>
+<link rel="stylesheet" href="../../common/css/reset.css">
+<style>
+body { background: #000; color: #fff; font-size: 14px; line-height: 1.5; }
+.container { padding: 30px; }
+h1 { font-size: 1.5em; font-weight: bold; color: yellow; }
+h2 { margin-bottom: 5px; font-size: 1.2em; font-weight: bold; color: rgb(15, 247, 85); }
+hr { margin: 12px 0; }
+button { margin-right: 10px; }
+span { margin-right: 10px; }
+.area-img img { width: 100px; margin-right: 20px; border: 1px solid #fff; border-radius: 10px; box-sizing: border-box; }
+</style>
+<script src="CheongEum.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} });</script>
 </head>
@@ -40,10 +49,10 @@
 
 	<h2>클릭 또는 탭 포커스 되었을 때 음성 출력 (alt 텍스트가 있으면 읽음)</h2>
 	<div class="area-img">
-		<img src="img/sample1.png" tabindex="0" alt="토끼가 오른쪽을 보고 있다">
-		<img src="img/sample2.png" tabindex="0" alt="토끼가 얌전히 있다">
-		<img src="img/sample3.png" tabindex="0" alt="토끼가 잔디 위에 있다">
-		<img src="img/sample4.png" tabindex="0" alt="토끼가 숲속에 있다">
+		<img src="../../common/images/sample-1.png" tabindex="0" alt="토끼가 오른쪽을 보고 있다">
+		<img src="../../common/images/sample-2.png" tabindex="0" alt="토끼가 얌전히 있다">
+		<img src="../../common/images/sample-3.png" tabindex="0" alt="토끼가 잔디 위에 있다">
+		<img src="../../common/images/sample-4.png" tabindex="0" alt="토끼가 숲속에 있다">
 	</div>
 	<hr>
 
