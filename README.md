@@ -149,7 +149,7 @@ utterance.voice = voices.find(voice => voice.lang === "ko-KR");
 - 교육용 콘텐츠: 외국어 학습 사이트에서 발음 연습기능 제공
 - 알림 시스템: 실시간 알림을 음성으로 전달하여 사용자의 주의를 끌기
 
-## 브라우저 호환성 정보
+## 🌐 브라우저 호환성 정보
 Web Speech API의 SpeechSynthesisUtterance는 다음 브라우저들에서 동작합니다:
 - Chrome (버전 33 이상)
 - Edge (버전 14 이상)
