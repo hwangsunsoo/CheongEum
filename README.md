@@ -34,7 +34,7 @@
 자세한 정보와 예제 코드는 [MDN Web Docs의 SpeechSynthesisUtterance 문서](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance)를 참고하시기 바랍니다.
 
 ----
-<img src="./common/images/readme-1.png" alt="Universal Design for Learning" style="max-width: 100%;" />
+<img src="./common/images/readme-1.png" alt="Universal Design for Learning" style="width: 385px;" />
 (AI로 생성한 이미지입니다.)
 
 # UDL(Universal Design for Learning)
