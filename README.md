@@ -1,4 +1,4 @@
-![로컬 이미지](.common/images/great_king_sejong.png)
+![로컬 이미지](./common/images/great_king_sejong.png)
 
 # 훈맹청음(訓盲聽音)
 '훈맹청음'은 웹 브라우저의 음성 합성 기능을 활용하여 텍스트를 음성으로 변환하는 자바스크립트 플러그인입니다.
